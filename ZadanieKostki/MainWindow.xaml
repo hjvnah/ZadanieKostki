@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#F5F5DC">
-  
-        <Label HorizontalAlignment="Center" FontSize="30" Foreground="#A52A2A" Grid.RowSpan="2" Width="532">Gra w kości Autor: Karolina Miszkowska</Label>
+
+        <Label HorizontalAlignment="Center" FontSize="30" Foreground="#A52A2A" Width="530" Margin="0,36,0,0">Gra w kości Autor: Karolina Miszkowska</Label>
     </Grid>
 </Window>

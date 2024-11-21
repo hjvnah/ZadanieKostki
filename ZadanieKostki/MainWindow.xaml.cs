@@ -25,7 +25,7 @@ namespace ZadanieKostki
         }
 
         private void Ilosckostek_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) => UpdateIlosckostekText();
-        private void Iloscscian_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        private void Iloscscian_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) //nie mam pojecia co tu sie zadziało, kliknelam cos co mialo to naprawic no i dziala
         {
             UpdateIloscscianText();
         }

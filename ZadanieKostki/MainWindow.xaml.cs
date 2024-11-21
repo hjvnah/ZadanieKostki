@@ -22,7 +22,7 @@ namespace ZadanieKostki
             InitializeComponent();
             UpdateIlosckostekText(); //odwolanie sie do stworzonych funkcji ponizej
             UpdateIloscscianText(); //odwolanie sie do stworzonych funkcji ponizej
-        }
+        } 
 
         private void Ilosckostek_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) => UpdateIlosckostekText(); //nie mam pojecia co tu sie zadziało, kliknelam cos co mialo to naprawic no i dziala
         private void Iloscscian_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) 

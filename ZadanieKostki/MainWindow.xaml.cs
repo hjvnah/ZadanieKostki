@@ -74,6 +74,7 @@ namespace ZadanieKostki
             // Wyświetlenie wyników w TextBoxie
             pokazwyniki.Text = pokazwynik;
         }
+        //WSPOMOGLAM SIE TROCHE INTERNETEM
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {

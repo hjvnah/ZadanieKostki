@@ -9,6 +9,12 @@
     <Grid Background="#F5F5DC">
         <StackPanel>
         <Label HorizontalAlignment="Center" FontSize="30" Foreground="#A52A2A" Width="530" Margin="0,36,0,0">Gra w kości Autor: Karolina Miszkowska</Label>
+        
+         
+
+
+
+
         </StackPanel>
     </Grid>
 </Window>

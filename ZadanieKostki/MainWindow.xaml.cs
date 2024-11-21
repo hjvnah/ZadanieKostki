@@ -16,9 +16,12 @@ namespace ZadanieKostki
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int Ogolnywynik = 0;
         public MainWindow()
         {
             InitializeComponent();
         }
+
+        
     }
 }

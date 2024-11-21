@@ -18,7 +18,8 @@
      <!--przyciski-->
         <Button Content="RZUĆ KOSTKAMI" Foreground="white" Background="#D2691E" Click="Rzuckostkami" Margin="90,190,462,184"/>
         <Button Content="RESETUJ WYNIK" Foreground="white" Background="#D2691E" Click="Resetujwynik" Margin="454,190,95,181"/>
-
+     <!--textBox-->
+        <TextBox x:Name="pokazwyniki" Height="100" Margin="61,291,66,43"/>
 
 
     </Grid>

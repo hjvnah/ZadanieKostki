@@ -11,8 +11,8 @@
         <Label HorizontalAlignment="Center" FontSize="30" Foreground="#A52A2A" Width="530" Margin="0,36,0,0">Gra w kości Autor: Karolina Miszkowska</Label>
         <Slider x:Name="Ilosckostek" Minimum="1" Maximum="6" Value="1" TickFrequency="1" IsSnapToTickEnabled="True" Margin="61,132,433,272"/>
         <Slider x:Name="Iloscscian" Minimum="4" Maximum="10" Value="1" TickFrequency="1" IsSnapToTickEnabled="True" Margin="425,132,66,272"/>
-        <Label Content="wybierz ilość kostek" FontSize="15" Margin="135,97,513,272"/>
-        <Label Content="wybierz ilość ścian" FontSize="15" Margin="512,97,153,301"/>
+        <Label Content="wybierz ilość kostek (1-6)" FontSize="15" Margin="135,97,482,272"/>
+        <Label Content="wybierz ilość ścian (4-10)" FontSize="15" Margin="488,97,128,301"/>
 
 
 

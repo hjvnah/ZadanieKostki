@@ -20,8 +20,26 @@ namespace ZadanieKostki
         public MainWindow()
         {
             InitializeComponent();
+            UpdateIlosckostekText();
+            UpdateIloscscianText();
         }
 
-       
+        private void Ilosckostek_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            UpdateIlosckostekText();
+        }
+        private void Iloscscian_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            UpdateIloscscianText();
+        }
+        private void UpdateIlosckostekText()
+        {
+            IlosckostekText.Text = $"{(int)Ilosckostek.Value}";
+        }
+        private void UpdateIloscscianText()
+        {
+            IloscscianText.Text = $"{(int)Iloscscian.Value}";
+        }
+
     }
 }

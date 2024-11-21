@@ -10,9 +10,20 @@
         
         <Label HorizontalAlignment="Center" FontSize="30" Foreground="#A52A2A" Width="530" Margin="0,36,0,0">Gra w kości Autor: Karolina Miszkowska</Label>
       <!--slidery-->
-        <Slider x:Name="Ilosckostek" Minimum="1" Maximum="6" Value="1" TickFrequency="1" IsSnapToTickEnabled="True" Margin="61,132,433,272"/>
-      <!--napisy-->
+        <Slider x:Name="Ilosckostek" Minimum="1" Maximum="6" Value="1" TickFrequency="1" IsSnapToTickEnabled="True" Margin="61,132,433,272" />
+        <TextBlock x:Name="IlosckostekText" Text="1" Margin="79,147,10,10"/>
         <Slider x:Name="Iloscscian" Minimum="4" Maximum="10" Value="1" TickFrequency="1" IsSnapToTickEnabled="True" Margin="425,132,66,272"/>
+        <TextBlock x:Name="IloscscianText" Text="1" Margin="445,146,10,10" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.032"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <!--napisy-->
         <Label Content="wybierz ilość kostek (1-6)" FontSize="15" Margin="135,97,482,272"/>
         <Label Content="wybierz ilość ścian (4-10)" FontSize="15" Margin="488,97,128,301"/>
      <!--przyciski-->

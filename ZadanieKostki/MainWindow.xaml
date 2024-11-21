@@ -27,8 +27,8 @@
         <Label Content="wybierz ilość kostek (1-6)" FontSize="15" Margin="135,97,482,272"/>
         <Label Content="wybierz ilość ścian (4-10)" FontSize="15" Margin="488,97,128,301"/>
      <!--przyciski-->
-        <Button Content="RZUĆ KOSTKAMI" Foreground="white" Background="#D2691E" Click="Rzuckostkami" Margin="90,190,462,184"/>
-        <Button Content="RESETUJ WYNIK" Foreground="white" Background="#D2691E" Click="Resetujwynik" Margin="454,190,95,181"/>
+        <Button Click="Button_Click" Content="RZUĆ KOSTKAMI" Foreground="white" Background="#D2691E"  Margin="90,190,462,184"/>
+        <Button Click="Button_Click_1" Content="RESETUJ WYNIK" Foreground="white" Background="#D2691E"  Margin="454,190,95,181"/>
      <!--textBox-->
         <TextBox x:Name="pokazwyniki" Height="100" Margin="61,291,66,43"/>
 
